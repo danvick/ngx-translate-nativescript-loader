@@ -1,6 +1,6 @@
 {
   "name": "@danvick/ngx-translate-nativescript-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A loader for `ngx-translate` that loads localally stored translations for NativeScript.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -17,8 +17,8 @@
     "type": "git",
     "url": "https://github.com/danvick/ngx-translate-nativescript-loader.git"
   },
-  "keywords": [],
-  "author": "Danvick Miller <danvick@infinitysoft.io>",
+  "keywords": ["ngx-translate nativescript", "nativescript", "ngx-translate"],
+  "author": "Danvick Miller <danvickmiller@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/danvick/ngx-translate-nativescript-loader/issues"
