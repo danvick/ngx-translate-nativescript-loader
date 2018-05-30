@@ -1,0 +1,52 @@
+{
+  "name": "@danvick/ngx-translate-nativescript-loader",
+  "version": "1.0.0",
+  "description": "A loader for `ngx-translate` that loads localally stored translations for NativeScript.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "watch": "npm run clean && tsc --watch",
+    "clean": "rm -rf ./dist",
+    "lint": "tslint --force '*.ts'"
+  },
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danvick/ngx-translate-nativescript-loader.git"
+  },
+  "keywords": [],
+  "author": "Danvick Miller <danvick@infinitysoft.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danvick/ngx-translate-nativescript-loader/issues"
+  },
+  "homepage": "https://github.com/danvick/ngx-translate-nativescript-loader",
+  "engines": {
+    "node": ">=4.1.1"
+  },
+  "config": {},
+  "peerDependencies": {
+    "@angular/core": ">= 5.0.0 < 6.0.0",
+    "@angular/common": ">= 5.0.0 < 6.0.0",
+    "@ngx-translate/core": "^9.0.0",
+    "nativescript-angular": "5.3.0",
+    "tns-core-modules": "^4.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/core": "5.0.3",
+    "@angular/common": "5.0.3",
+    "@angular/platform-browser": "5.0.3",
+    "nativescript-angular": "5.3.0",
+    "tns-core-modules": "4.0.0",
+    "rxjs": "5.5.2",
+    "zone.js": "0.8.18",
+    "typescript": "2.6.1",
+    "@ngx-translate/core": "9.0.1",
+    "tslint": "5.8.0",
+    "tslint-eslint-rules": "4.1.1"
+  }
+}
