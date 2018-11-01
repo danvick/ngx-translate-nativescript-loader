@@ -5,7 +5,7 @@
 	"rules": {
 		"indent": [true, "tabs"],
 		"semicolon": [true, "always", "ignore-interfaces"],
-		"quotemark": [true, "single", "avoid-escape"],
+		"quotemark": [true, "double", "avoid-escape"],
 		"only-arrow-functions": true,
 		"no-duplicate-variable": true,
 		"member-access": true,
