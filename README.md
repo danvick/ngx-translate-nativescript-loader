@@ -1,5 +1,16 @@
 # Description
 A loader for `ngx-translate` that loads localally stored translations for NativeScript.
+<dir align ="center">
+<a href="https://www.npmjs.com/package/@danvick/ngx-translate-nativescript-loader">
+    <img src="https://img.shields.io/npm/v/@danvick/ngx-translate-nativescript-loader?logo=npm&style=for-the-badge" alt="Version">
+</a>
+<a href="https://www.npmjs.com/package/@danvick/ngx-translate-nativescript-loader">
+	<img src="https://img.shields.io/bundlephobia/min/@danvick/ngx-translate-nativescript-loader?color=red&label=SIZE&logo=npm&style=for-the-badge", alt="Size">
+</a>
+<a href="https://www.npmjs.com/package/@danvick/ngx-translate-nativescript-loader">
+<img src="https://img.shields.io/npm/dw/@danvick/ngx-translate-nativescript-loader?logo=npm&style=for-the-badge", alt="Downloads">
+</a>
+</dir>
 
 ## Installation:
 
