@@ -5,10 +5,10 @@ import { fromPromise } from 'rxjs/observable/fromPromise';
 import { Observable } from "rxjs/Observable";
 
 export class NativeScriptLoader extends TranslateLoader {
-    prefix = "./assets/i18n/";
-    suffix = ".json";
+    prefix;
+    suffix;
 
-    constructor(prefix?: string, suffix?: string) {
+    constructor(prefix: string = "./assets/i18n/", suffix: string = ".json") {
         super();
         this.prefix = prefix;
         this.suffix = suffix;
