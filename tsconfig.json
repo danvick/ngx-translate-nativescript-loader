@@ -2,7 +2,7 @@
     "compilerOptions": {
         "allowSyntheticDefaultImports": true,
         "noUnusedLocals": true,
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "removeComments": true,
         "module": "commonjs",
         "moduleResolution": "node",
