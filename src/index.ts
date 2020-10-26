@@ -1,5 +1,5 @@
 import { TranslateLoader } from "@ngx-translate/core";
-import { knownFolders } from "tns-core-modules/file-system";
+import { knownFolders } from "@nativescript/core";
 import { from, Observable } from "rxjs";
 import { map } from "rxjs/operators";
 
