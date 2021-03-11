@@ -1,6 +1,6 @@
 {
   "name": "@danvick/ngx-translate-nativescript-loader",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A loader for `ngx-translate` that loads locally stored translations for NativeScript.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -33,25 +33,25 @@
   },
   "config": {},
   "peerDependencies": {
-    "@angular/core": "^10.0.0",
-    "@angular/common": "^10.0.0",
-    "@ngx-translate/core": "^13.0.0",
-    "@nativescript/angular": "~10.0.0",
-    "@nativescript/core": "~7.0.0"
+    "@angular/common": "^11.0.0",
+    "@angular/core": "^11.0.0",
+    "@nativescript/angular": "^11.0.0",
+    "@nativescript/core": "^7.0.0",
+    "@ngx-translate/core": "^13.0.0"
   },
   "dependencies": {},
   "devDependencies": {
-    "@angular/core": "^10.0.0",
-    "@angular/common": "^10.0.0",
-    "@angular/platform-browser": "^10.0.0",
-    "@nativescript/angular": "~10.0.0",
-    "@nativescript/core": "~7.0.0",
-    "rxjs": "~6.2.0",
-    "rxjs-compat": "~6.2.0",
-    "zone.js": "0.8.18",
-    "typescript": "3.9.7",
+    "@angular/common": "^11.0.0",
+    "@angular/core": "^11.0.0",
+    "@angular/platform-browser": "^11.0.0",
+    "@nativescript/angular": "^11.0.0",
+    "@nativescript/core": "^7.0.0",
     "@ngx-translate/core": "^13.0.0",
+    "rxjs": "^6.2.0",
+    "rxjs-compat": "^6.2.0",
     "tslint": "5.8.0",
-    "tslint-eslint-rules": "4.1.1"
+    "tslint-eslint-rules": "4.1.1",
+    "typescript": "3.9.7",
+    "zone.js": "~0.10.3"
   }
 }
